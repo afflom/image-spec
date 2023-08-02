@@ -72,4 +72,12 @@ const (
 
 	// MediaTypeEmptyJSON specifies the media type for an unused blob containing the value `{}`
 	MediaTypeEmptyJSON = "application/vnd.oci.empty.v1+json"
+
+	// MediaTypeStatementJSON specifies the media type for a statement object used
+	// to express relationships and typed attributes of an artifact.
+	MediaTypeStatementJSON = "application/vnd.oci.statement.v1+json"
+
+	// MediaTypeResourceJSON specifies the media type for a resource object used
+	// define a client's interaction with a resource.
+	MediaTypeResourceJSON = "application/vnd.oci.resource.v1+json"
 )
